@@ -7,7 +7,7 @@ steps:
     title: Build remote-docker image 
     dockerfile: Dockerfile
     working-directory: ${{main_clone}}
-    image-name: ncodefresh/remote-docker
+    image-name: jldeen/remote-docker
     build_arguments:
       - GH_SHA=${{CF_REVISION}}
 
